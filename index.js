@@ -11,7 +11,7 @@ function getTranslationUrl(text) {
 }
 
 const handleErr = () => {
-  alert("Something went wrong with the server, Try after sometime");
+  output.innerText = "Something went wrong with the server, Try after sometime";
 }
 
 const btnClick = () => {
